@@ -43,7 +43,7 @@
           font-weight: 300;
         }
       }
-  
+
       .search-form {
         @extend .d-none;
         @extend .d-md-flex;
@@ -149,7 +149,7 @@
               margin-top: 0;
               border: 1px solid #f2f4f9;
               -webkit-box-shadow: 0 5px 10px 0 rgba(183,192,206,.2);
-                      box-shadow: 0 5px 10px 0 rgba(183,192,206,.2);            
+                      box-shadow: 0 5px 10px 0 rgba(183,192,206,.2);
               @extend .dropdownAnimation;
               font-size: .875rem;
               &::before {
@@ -200,10 +200,10 @@
                       color: $text-muted;
                     }
                     &:hover {
-                      background-color: lighten(theme-color(primary), 27%);    
-                      svg { 
-                        color: theme-color(primary);  
-                      }             
+                      background-color: lighten(theme-color(primary), 27%);
+                      svg {
+                        color: theme-color(primary);
+                      }
                     }
                   }
                 }
@@ -257,10 +257,10 @@
                   }
                   &:nth-child(1) {
                     &:hover {
-                      background: rgba(theme-color(primary), .07);  
+                      background: rgba(theme-color(primary), .07);
                       .arrow {
-                        color: theme-color(primary);                                        
-                      }                                      
+                        color: theme-color(primary);
+                      }
                     }
                     .icon {
                       background: rgba(theme-color(primary), .1);
@@ -273,8 +273,8 @@
                     &:hover {
                       background: rgba(theme-color(success), .07);
                       .arrow {
-                        color: theme-color(success);                                        
-                      }                                        
+                        color: theme-color(success);
+                      }
                     }
                     .icon {
                       background: rgba(theme-color(success), .1);
@@ -285,10 +285,10 @@
                   }
                   &:nth-child(3) {
                     &:hover {
-                      background: rgba(theme-color(danger), .07);    
+                      background: rgba(theme-color(danger), .07);
                       .arrow {
-                        color: theme-color(danger);                                        
-                      }                                    
+                        color: theme-color(danger);
+                      }
                     }
                     .icon {
                       background: rgba(theme-color(danger), .1);
@@ -299,10 +299,10 @@
                   }
                   &:nth-child(4) {
                     &:hover {
-                      background: rgba(theme-color(warning), .07);    
+                      background: rgba(theme-color(warning), .07);
                       .arrow {
-                        color: theme-color(warning);                                        
-                      }                                     
+                        color: theme-color(warning);
+                      }
                     }
                     .icon {
                       background: rgba(theme-color(warning), .1);
@@ -313,10 +313,10 @@
                   }
                   &:nth-child(5) {
                     &:hover {
-                      background: rgba(theme-color(info), .07);    
+                      background: rgba(theme-color(info), .07);
                       .arrow {
-                        color: theme-color(info);                                        
-                      }                                     
+                        color: theme-color(info);
+                      }
                     }
                     .icon {
                       background: rgba(theme-color(info), .1);
@@ -329,8 +329,8 @@
                     &:hover {
                       background: rgba(theme-color(success), .07);
                       .arrow {
-                        color: theme-color(success);                                        
-                      }                                     
+                        color: theme-color(success);
+                      }
                     }
                     .icon {
                       background: rgba(theme-color(success), .1);
@@ -343,8 +343,8 @@
                     &:hover {
                       background: rgba(theme-color(danger), .07);
                       .arrow {
-                        color: theme-color(danger);                                        
-                      }                                     
+                        color: theme-color(danger);
+                      }
                     }
                     .icon {
                       background: rgba(theme-color(danger), .1);
@@ -469,7 +469,7 @@
     }
   }
   .bottom-navbar {
-    background: #fff;		
+    background: #fff;
     position: relative;
     width: 100%;
     display: flex;
@@ -532,7 +532,7 @@
           color: $black;
           padding: 1rem 0 .3rem 0;
           margin-bottom: 0;
-          @extend .text-primary;								
+          @extend .text-primary;
         }
 
         > .nav-link {
@@ -576,7 +576,7 @@
           .submenu {
             display: block;
           }
-        
+
           > .nav-link {
             background: transparent;
             .link-arrow,
@@ -598,7 +598,7 @@
           .submenu {
             display: block;
           }
-        
+
           > .nav-link {
             background: transparent;
             .link-arrow {
@@ -630,7 +630,7 @@
             .menu-title,
             .link-icon,
             .link-arrow {
-              color: theme-color(primary);							
+              color: theme-color(primary);
             }
           }
         }
@@ -642,7 +642,7 @@
           ul {
             list-style-type: none;
             padding-left: 0;
-          
+
             li {
               display: block;
               line-height: 20px;
@@ -655,7 +655,7 @@
                 text-align: left;
                 margin: 4px 0;
                 white-space: nowrap;
-                
+
                 &:hover {
                   color: theme-color(primary);
                   @include transition (color .1s linear);
@@ -687,7 +687,7 @@
             width: -webkit-max-content;
             width: -moz-max-content;
             width: max-content;
-            min-width: 180px;	
+            min-width: 180px;
             @include media-breakpoint-up(md) {
               position: absolute;
               top: 61px;
@@ -700,7 +700,7 @@
               li {
                 a {
                   position: relative;
-                  padding-left: 20px;	
+                  padding-left: 20px;
                   &::before {
                     position: absolute;
                     content: "";
@@ -710,7 +710,7 @@
                     background: theme-color(secondary);
                     top: 12px;
                     left: 0;
-                  }			
+                  }
                 }
               }
             }
@@ -719,7 +719,7 @@
               top:0;
               -webkit-box-shadow: none;
                       box-shadow: none;
-            }												
+            }
             ul {
               width: auto;
               padding: 15px 30px;
@@ -744,7 +744,7 @@
               li {
                 a {
                   position: relative;
-                  padding-left: 20px;	
+                  padding-left: 20px;
                   &::before {
                     position: absolute;
                     content: "";
@@ -754,7 +754,7 @@
                     background: theme-color(secondary);
                     top: 12px;
                     left: 0;
-                  }			
+                  }
                 }
               }
             }
@@ -764,13 +764,13 @@
               -webkit-box-shadow: none;
                       box-shadow: none;
             }
-            width: 100%;						
+            width: 100%;
             left: 0;
             right: 0;
             padding: 15px 25px;
 
             .col-group-wrapper {
-              padding: 0 1rem;								
+              padding: 0 1rem;
             }
             @include media-breakpoint-down(md) {
               padding: 0 32px;

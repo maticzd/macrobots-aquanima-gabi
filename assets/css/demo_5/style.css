@@ -34,7 +34,7 @@
   --gray-lighter: #e8eff4;
   --gray-lightest: #e6e9ed;
   --black: #000000;
-  --primary: #727cf5;
+  --primary: #ed1309;
   --secondary: #7987a1;
   --success: #10b759;
   --info: #66d1d1;
@@ -2828,7 +2828,7 @@ input[type="button"].btn-block {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center; }
-  
+
   .btn-group-vertical > .btn,
   .fc .btn-group-vertical > .fc-button,
   .swal2-modal .swal2-actions .btn-group-vertical > button,
@@ -12897,7 +12897,7 @@ address p {
       display: flex;
       align-items: center; }
       .horizontal-menu .navbar .navbar-content .navbar-brand span {
-        color: #727cf5;
+        color: #ed1309;
         font-weight: 300; }
     .horizontal-menu .navbar .navbar-content .search-form {
       width: 100%;
@@ -13286,7 +13286,7 @@ address p {
         .horizontal-menu .bottom-navbar .page-navigation > .nav-item:hover > .nav-link .link-arrow,
         .horizontal-menu .bottom-navbar .page-navigation > .nav-item:hover > .nav-link .link-icon,
         .horizontal-menu .bottom-navbar .page-navigation > .nav-item:hover > .nav-link .menu-title {
-          color: #727cf5;
+          color: #ed1309;
           -webkit-transition: color .3s ease;
           transition: color .3s ease; }
         .horizontal-menu .bottom-navbar .page-navigation > .nav-item:hover > .nav-link .link-arrow {
@@ -13337,7 +13337,7 @@ address p {
         .horizontal-menu .bottom-navbar .page-navigation > .nav-item.active > .nav-link .menu-title,
         .horizontal-menu .bottom-navbar .page-navigation > .nav-item.active > .nav-link .link-icon,
         .horizontal-menu .bottom-navbar .page-navigation > .nav-item.active > .nav-link .link-arrow {
-          color: #727cf5; }
+          color: #ed1309; }
       .horizontal-menu .bottom-navbar .page-navigation > .nav-item .submenu {
         display: none; }
         .horizontal-menu .bottom-navbar .page-navigation > .nav-item .submenu ul {
