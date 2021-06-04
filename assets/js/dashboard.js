@@ -403,7 +403,7 @@ $(function() {
   }
   // Progressgar1 start
 
-  // Progressgar2 start
+  // Progressbar2 start
   if($('#progressbar2').length) {
     var bar = new ProgressBar.Circle(progressbar2, {
       color: colors.muted,
@@ -438,9 +438,9 @@ $(function() {
 
     bar.animate(.17);
   }
-  // Progressgar2 start
+  // Progressbar2 start
 
-  // Progressgar3 start
+  // Progressbar3 start
   if($('#progressbar3').length) {
     var bar = new ProgressBar.Circle(progressbar3, {
       color: colors.muted,
@@ -475,9 +475,9 @@ $(function() {
 
     bar.animate(.81);
   }
-  // Progressgar3 start
+  // Progressbar3 start
 
-  // Progressgar4 start
+  // Progressbar4 start
   if($('#progressbar4').length) {
     var bar = new ProgressBar.Circle(progressbar4, {
       color: colors.muted,
@@ -512,7 +512,44 @@ $(function() {
 
     bar.animate(.28);
   }
-  // Progressgar4 start
+  // Progressbar4 start
+
+  // Progressbar5 start
+  if($('#progressbar5').length) {
+    var bar = new ProgressBar.Circle(progressbar5, {
+      color: colors.muted,
+      trailColor: gridLineColor,
+      // This has to be the same size as the maximum width to
+      // prevent clipping
+      strokeWidth: 4,
+      trailWidth: 1,
+      easing: 'easeInOut',
+      duration: 1400,
+      text: {
+        autoStyleContainer: false
+      },
+      from: { color: colors.danger, width: 1 },
+      to: { color: colors.danger, width: 4 },
+      // Set default step function for all animate calls
+      step: function(state, circle) {
+        circle.path.setAttribute('stroke', state.color);
+        circle.path.setAttribute('stroke-width', state.width);
+
+        var value = Math.round(circle.value() * 100);
+        if (value === 0) {
+          circle.setText('');
+        } else {
+          circle.setText(value + '%');
+        }
+
+      }
+    });
+    bar.text.style.fontFamily = "'Overpass', sans-serif;";
+    bar.text.style.fontSize = '3rem';
+
+    bar.animate(.39);
+  }
+  // Progressbar5 start
 
   // Monthly sales chart start
   if($('#monthly-sales-chart').length) {
